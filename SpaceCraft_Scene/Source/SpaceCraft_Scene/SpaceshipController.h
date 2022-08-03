@@ -11,19 +11,48 @@ class SPACECRAFT_SCENE_API ASpaceshipController : public APawn
 {
 	GENERATED_BODY()
 
+	UPROPERTY(EditAnywhere)
 	float Acceleration = 60.f;
+	UPROPERTY(EditAnywhere)
 	float MinSpeed = 100.f;
+	UPROPERTY(EditAnywhere)
 	float MaxSpeed = 10000.f;
+	UPROPERTY(EditAnywhere)
 	float CurrentSpeed = 500.f;
+	UPROPERTY(EditAnywhere)
+	float BoostValue = 250.f;
 
-	float CurrentYaw;
-	float CurrentPitch;
-	float CurrentRoll;
+	UPROPERTY(EditAnywhere)
+	float CurrentYawSpeed;
+	
+	UPROPERTY(EditAnywhere)
+	float CurrentPitchSpeed;
+	UPROPERTY(EditAnywhere)
+	float PitchRateMultiplier = 200.f;
+	UPROPERTY(EditAnywhere)
+	float PitchInterpRate = .2f;
+
+	UPROPERTY(EditAnywhere)
+	float CurrentRollSpeed;
+	UPROPERTY(EditAnywhere)
+	float RollRateMultiplier = 200.f;
+	UPROPERTY(EditAnywhere)
+	float RollInterpRate = .2f;
+
+	// To balance mouse vs key inputs
 	UPROPERTY(EditAnywhere)
 	float KeyToMouseOffset = 2.f;
+
+	// Reduces axis function calls by checking if key is pressed
 	UPROPERTY(EditAnywhere)
-	float MinAxisValue = .2f;
-	
+	float MinAbsAxisValue = .2f;
+
+	UPROPERTY(EditAnywhere)
+	class UCapsuleComponent* CapsuleComp;
+	UPROPERTY(EditAnywhere)
+	class USpringArmComponent* SpringArm;
+	UPROPERTY(EditAnywhere)
+	class UCameraComponent* CameraComp;
 
 public:
 	// Sets default values for this pawn's properties
@@ -44,9 +73,6 @@ protected:
 	void ProcessPitch(float AxisValue);
 
 	void Boost(float AxisValue);
-	
-
-	
 
 public:	
 	// Called every frame
