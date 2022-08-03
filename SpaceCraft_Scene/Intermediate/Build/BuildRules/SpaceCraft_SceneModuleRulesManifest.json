@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\Source\\SpaceCraft_Scene\\SpaceCraft_Scene.Build.cs",
+		"C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\Source\\SpaceCraft_Scene.Target.cs",
+		"C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\Source\\SpaceCraft_SceneEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

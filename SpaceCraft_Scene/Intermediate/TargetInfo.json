@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpaceCraft_Scene",
+			"Path": "C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\Source\\SpaceCraft_Scene.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpaceCraft_SceneEditor",
+			"Path": "C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\Source\\SpaceCraft_SceneEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

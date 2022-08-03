@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "SpaceCraft_SceneEditor Editor Win64 Development (SpaceCraft_Scene)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\.vscode\\compileCommands_SpaceCraft_Scene.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Owner\\Documents\\Unreal Projects\\SpaceCraft_Scene\\SpaceCraft_Scene\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

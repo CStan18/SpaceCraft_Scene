@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\owner\\documents\\unreal projects\\spacecraft_scene\\spacecraft_scene\\source\\spacecraft_scene\\spacecraft_scene.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\owner\\documents\\unreal projects\\spacecraft_scene\\spacecraft_scene\\intermediate\\build\\win64\\spacecraft_sceneeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\owner\\documents\\unreal projects\\spacecraft_scene\\spacecraft_scene\\intermediate\\build\\win64\\unrealeditor\\development\\spacecraft_scene\\definitions.spacecraft_scene.h",
+            "c:\\users\\owner\\documents\\unreal projects\\spacecraft_scene\\spacecraft_scene\\source\\spacecraft_scene\\spacecraft_scene.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
