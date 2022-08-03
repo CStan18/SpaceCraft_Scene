@@ -1317,3 +1317,33 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.03-21.08.05:740][489]LogViewport: Scene viewport resized to 593x273, mode Windowed.
 [2022.08.03-21.08.47:740][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
 [2022.08.03-21.08.47:744][ 65]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.045
+[2022.08.03-21.15.27:695][356]LogViewport: Scene viewport resized to 1212x1054, mode Windowed.
+[2022.08.03-21.18.48:171][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.08.03-21.18.48:175][  0]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.052
+[2022.08.03-21.28.48:773][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.08.03-21.28.48:776][  6]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.046
+[2022.08.03-21.39.13:970][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.08.03-21.39.13:973][134]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.056
+[2022.08.03-21.40.49:967][421]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.03-21.41.02:089][457]LogLiveCoding: Display:    Creating library C:\Users\Owner\Documents\Unreal Projects\SpaceCraft_Scene\SpaceCraft_Scene\Binaries\Win64\UnrealEditor-SpaceCraft_Scene.patch_3.lib and object C:\Users\Owner\Documents\Unreal Projects\SpaceCraft_Scene\SpaceCraft_Scene\Binaries\Win64\UnrealEditor-SpaceCraft_Scene.patch_3.exp
+[2022.08.03-21.41.02:181][457]LogClass: /Script/SpaceCraft_Scene Reload.
+[2022.08.03-21.41.02:181][457]LogClass: SpaceshipController Reload.
+[2022.08.03-21.41.02:181][457]LogClass: Could not find existing class SpaceshipController in package /Script/SpaceCraft_Scene for reload, assuming new or modified class
+[2022.08.03-21.41.02:197][457]Re-instancing SpaceshipController after reload.
+[2022.08.03-21.41.02:586][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.08.03-21.41.03:161][458]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.08.03-21.41.03:161][458]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.08.03-21.41.15:868][925]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.08.03-21.43.12:617][406]LogViewport: Scene viewport resized to 593x273, mode Windowed.
+[2022.08.03-21.48.44:704][245]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.03-21.48.53:453][271]LogLiveCoding: Display:    Creating library C:\Users\Owner\Documents\Unreal Projects\SpaceCraft_Scene\SpaceCraft_Scene\Binaries\Win64\UnrealEditor-SpaceCraft_Scene.patch_4.lib and object C:\Users\Owner\Documents\Unreal Projects\SpaceCraft_Scene\SpaceCraft_Scene\Binaries\Win64\UnrealEditor-SpaceCraft_Scene.patch_4.exp
+[2022.08.03-21.48.53:553][271]LogClass: /Script/SpaceCraft_Scene Reload.
+[2022.08.03-21.48.53:553][271]LogClass: SpaceshipController Reload.
+[2022.08.03-21.48.53:553][271]LogClass: Could not find existing class SpaceshipController in package /Script/SpaceCraft_Scene for reload, assuming new or modified class
+[2022.08.03-21.48.53:569][271]Re-instancing SpaceshipController after reload.
+[2022.08.03-21.48.54:117][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.08.03-21.48.54:632][272]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.08.03-21.48.54:632][272]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.08.03-21.48.54:781][273]LogViewport: Scene viewport resized to 593x273, mode Windowed.
+[2022.08.03-21.49.51:856][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.08.03-21.49.51:861][339]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.204

@@ -116,109 +116,109 @@ void EmptyLinkFunctionForGeneratedCodeSpaceshipController() {}
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_Acceleration_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_Acceleration = { "Acceleration", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, Acceleration), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_Acceleration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_Acceleration_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinSpeed = { "MinSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, MinSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MaxSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MaxSpeed = { "MaxSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, MaxSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MaxSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MaxSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed = { "CurrentSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed = { "CurrentSpeed", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_BoostValue_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_BoostValue = { "BoostValue", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, BoostValue), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_BoostValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_BoostValue_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed = { "CurrentYawSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentYawSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed = { "CurrentYawSpeed", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentYawSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentYawSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed = { "CurrentPitchSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentPitchSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed = { "CurrentPitchSpeed", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentPitchSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentPitchSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchRateMultiplier_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchRateMultiplier = { "PitchRateMultiplier", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, PitchRateMultiplier), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchRateMultiplier_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchRateMultiplier_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchInterpRate_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchInterpRate = { "PitchInterpRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, PitchInterpRate), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchInterpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_PitchInterpRate_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed = { "CurrentRollSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentRollSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed = { "CurrentRollSpeed", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CurrentRollSpeed), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CurrentRollSpeed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollRateMultiplier_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollRateMultiplier = { "RollRateMultiplier", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, RollRateMultiplier), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollRateMultiplier_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollRateMultiplier_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollInterpRate_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollInterpRate = { "RollInterpRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, RollInterpRate), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollInterpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_RollInterpRate_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "Comment", "// To balance mouse vs key inputs\n" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 		{ "ToolTip", "To balance mouse vs key inputs" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset = { "KeyToMouseOffset", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, KeyToMouseOffset), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset = { "KeyToMouseOffset", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, KeyToMouseOffset), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_KeyToMouseOffset_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Flight Speeds" },
 		{ "Comment", "// Reduces axis function calls by checking if key is pressed\n" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 		{ "ToolTip", "Reduces axis function calls by checking if key is pressed" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue = { "MinAbsAxisValue", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, MinAbsAxisValue), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue = { "MinAbsAxisValue", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, MinAbsAxisValue), METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_MinAbsAxisValue_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CapsuleComp_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
@@ -226,7 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeSpaceshipController() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CapsuleComp = { "CapsuleComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, CapsuleComp), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CapsuleComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CapsuleComp_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_SpringArm_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
@@ -234,7 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeSpaceshipController() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpaceshipController_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpaceshipController, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpaceshipController_Statics::NewProp_SpringArm_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpaceshipController_Statics::NewProp_CameraComp_MetaData[] = {
-		{ "Category", "SpaceshipController" },
+		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "SpaceshipController.h" },
 	};
@@ -295,9 +295,9 @@ void EmptyLinkFunctionForGeneratedCodeSpaceshipController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceCraft_Scene_Source_SpaceCraft_Scene_SpaceshipController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASpaceshipController, ASpaceshipController::StaticClass, TEXT("ASpaceshipController"), &Z_Registration_Info_UClass_ASpaceshipController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpaceshipController), 1629900761U) },
+		{ Z_Construct_UClass_ASpaceshipController, ASpaceshipController::StaticClass, TEXT("ASpaceshipController"), &Z_Registration_Info_UClass_ASpaceshipController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpaceshipController), 2974158456U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceCraft_Scene_Source_SpaceCraft_Scene_SpaceshipController_h_3970211803(TEXT("/Script/SpaceCraft_Scene"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceCraft_Scene_Source_SpaceCraft_Scene_SpaceshipController_h_650097597(TEXT("/Script/SpaceCraft_Scene"),
 		Z_CompiledInDeferFile_FID_SpaceCraft_Scene_Source_SpaceCraft_Scene_SpaceshipController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SpaceCraft_Scene_Source_SpaceCraft_Scene_SpaceshipController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

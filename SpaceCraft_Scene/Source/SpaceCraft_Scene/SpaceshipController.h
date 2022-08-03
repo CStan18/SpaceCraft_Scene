@@ -11,47 +11,47 @@ class SPACECRAFT_SCENE_API ASpaceshipController : public APawn
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float Acceleration = 60.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float MinSpeed = 100.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float MaxSpeed = 10000.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float CurrentSpeed = 500.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float BoostValue = 250.f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float CurrentYawSpeed;
 	
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float CurrentPitchSpeed;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float PitchRateMultiplier = 200.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float PitchInterpRate = .2f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float CurrentRollSpeed;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float RollRateMultiplier = 200.f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Flight Speeds")
 	float RollInterpRate = .2f;
 
 	// To balance mouse vs key inputs
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float KeyToMouseOffset = 2.f;
 
 	// Reduces axis function calls by checking if key is pressed
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Flight Speeds")
 	float MinAbsAxisValue = .2f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Components")
 	class UCapsuleComponent* CapsuleComp;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Components")
 	class USpringArmComponent* SpringArm;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Components")
 	class UCameraComponent* CameraComp;
 
 public:
